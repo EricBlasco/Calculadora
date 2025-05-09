@@ -28,4 +28,9 @@ public class Calculadora {
         }
         return a / b;
     }
+    //nou metode per a calcular quadrat de numero
+    public int quadrat(int a) {
+    return a * a;
+}
+
 }
