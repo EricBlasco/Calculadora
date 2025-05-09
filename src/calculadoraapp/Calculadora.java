@@ -34,3 +34,9 @@ public class Calculadora {
 }
 
 }
+public double arrelQuadrada(double a) {
+    if (a < 0) {
+        throw new IllegalArgumentException("No es pot calcular l'arrel quadrada d'un número negatiu.");
+    }
+    return Math.sqrt(a);
+}
